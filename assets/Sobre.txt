@@ -1,0 +1,3 @@
+A pasta 'assets' serve para guardar todo tipo de arquivo que não é .html
+
+Na pasta img será guardado todas as imagens utilizadas no projeto aula01
