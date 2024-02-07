@@ -1,0 +1,123 @@
+@import url("./../fonts/quickSand/quickSand.css");
+@import url("./../fonts/fuzzyBubbles/fuzzyBubbles.css");
+
+/* Essa parte se refere ao CSS do INDEX */
+
+
+/* Isso aqui sera aplicado em literalmente qualquer coisa */
+* {
+    outline: none;
+    font-family: "quickSand";
+}
+
+html {
+    display: grid;
+}
+
+body{
+    background-color:antiquewhite;
+    max-width: 100vw;
+    align-self: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Utilizando tag específica */
+ul {
+    color:red;
+} 
+
+/* o flex quebra o display block e faz com que os objetos fiquem um do lado do outro e não um em cima do outro */
+/* precisa chamar essa classe em cada div, até as divs que estão dentro de outras */
+/*.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.container {
+    display: grid;
+    grid-column: auto;
+}
+
+#tittleDiv {
+
+}
+
+#contentDiv {
+    display: grid;   /* Cria uma grade, pra organizar itens como se fossem um xadrez */
+    grid-template-columns: 60vw auto; /* Aqui duas colunas sao criadas, uma com 60vw, e outra com tamanho auto */
+}
+
+#descDiv {
+    display: flex;
+    flex-wrap: 50%;
+    flex-direction: column;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border: solid 5px;
+    border-color: brown;
+    height: fit-content; /* O suficiente pra caber tudo */
+    padding: 30px; /* Cria uma "margem" em relacao a parte de dentro */
+}
+
+#imageDiv {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
+
+    align-self: center; /* Alinha o elemente verticalmente no centro(Se estiver dentro d um grid) */
+    justify-self: center; /* Alinha o elemente horizontalmente no centro(Se estiver dentro d um grid) */
+}
+
+#jojo {
+    object-fit: cover;
+    width: inherit; /* Faz a imagem hedar o tamanho da imagem dentro do imageDiv */
+}
+
+/* Utilizando CLASS */
+.Tamanho-Fonte {
+    font-size: 100px;
+}
+
+.menu li{
+    display: inline;
+    padding: 16px;
+}
+
+.menu li a{
+    text-decoration: none; /* tira o hífen do texto */
+    transition: 200ms;
+    color: black;
+    font-size: 12pt;
+}
+
+/* altera as ações baseado na movimentação do mouse */
+/* nesse caso, quando o mouse passar pelo paragrafo dentro de <a>, dentro de <li> */
+.menu li a:hover{
+    color:crimson;
+    font-size: 14pt;
+}
+
+.center {
+    text-align: center;
+}
+ 
+/* Utilizando ID */
+#Cor-Fonte {
+    color:red;
+}
+
+
+/* Essa parte se refere ao CSS do INDEX */ 
+
+
+/*  
+    Escrever o arquivo CSS como cascata, seguindo a ordem que cada elemento
+    aparece no arquivo HTML e utilizando ela aqui, então se o menu aparece primeiro,
+    colocar o menu como primeira classe aqui no arquivo CSS
+*/

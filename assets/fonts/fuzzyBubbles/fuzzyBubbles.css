@@ -1,0 +1,16 @@
+
+/*========= FuzzyBubbles ================*/
+
+@font-face {
+    font-family: "fuzzyBubbles";
+    src: url("./FuzzyBubbles-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "fuzzyBubbles";
+    src: url("./FuzzyBubbles-Bold.ttf");
+    font-weight: 700;
+}
+
+/*====================================*/
