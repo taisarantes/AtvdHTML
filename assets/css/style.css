@@ -1,0 +1,51 @@
+/* Essa parte se refere ao CSS do INDEX */
+
+/* Utilizando tag específica */
+ ul {
+    color:red;
+} 
+
+/* Utilizando CLASS */
+.Tamanho-Fonte {
+    font-size: 100px;
+}
+
+.borda {
+    border: solid 50px;
+    border-color: crimson;
+}
+
+.mt-30 {
+    margin-top: 50px;
+}
+
+.menu li{
+    display: inline;
+    padding: 16px;
+}
+
+.menu li a{
+    text-decoration: none;
+    /* tira o hífen do texto */
+    color: black;
+    font-size: 20px;
+}
+
+/* altera as ações baseado na movimentação do mouse */
+/* nesse caso, quando o mouse passar pelo paragrafo dentro de <a>, dentro de <li> */
+.menu li a:hover{
+    font-size: 30px;
+    color:crimson;
+}
+
+.center {
+    text-align: center;
+}
+ 
+/* Utilizando ID */
+#Cor-Fonte {
+    color:red;
+}
+
+
+/* Essa parte se refere ao CSS do INDEX */ 
