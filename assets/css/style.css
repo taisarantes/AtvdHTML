@@ -56,10 +56,10 @@ body{
 }
 
 .wh-300 {
-    width: 5000px;
-    height: 500px;
-    overflow: hidden;
-    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    /* overflow: hidden;
+    object-fit: cover; */
 }
 
 .br-50 {
