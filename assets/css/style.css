@@ -5,6 +5,10 @@
     color:red;
 } 
 
+body{
+    background-color:antiquewhite;
+}
+
 /* Utilizando CLASS */
 .Tamanho-Fonte {
     font-size: 100px;
@@ -12,7 +16,7 @@
 
 .borda {
     border: solid 50px;
-    border-color: crimson;
+    border-color:brown;
 }
 
 .mt-30 {
@@ -41,6 +45,26 @@
 .center {
     text-align: center;
 }
+
+/* o flex quebra o display block e faz com que os objetos fiquem um do lado do outro e não um em cima do outro */
+/* precisa chamar essa classe em cada div, até as divs que estão dentro de outras */
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wh-300 {
+    width: 5000px;
+    height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
  
 /* Utilizando ID */
 #Cor-Fonte {
@@ -49,3 +73,10 @@
 
 
 /* Essa parte se refere ao CSS do INDEX */ 
+
+
+/*  
+    Escrever o arquivo CSS como cascata, seguindo a ordem que cada elemento
+    aparece no arquivo HTML e utilizando ela aqui, então se o menu aparece primeiro,
+    colocar o menu como primeira classe aqui no arquivo CSS
+*/
