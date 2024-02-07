@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div>
+    <div id="menu">
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./contato.html">Contato</a></li>
@@ -18,25 +20,27 @@
     <div>
         <h1>Fale Comigo</h1>
 
-        <form>
-            <label for="nome"> Nome </label> <br>
-            <input type="text" id="nome" name="nome">
-            <br> <br>
-
-            <label for="email"> E-Mail </label> <br>
-            <input type="email" id="email" name="email">
-            <br> <br>
-
-            <label for="assunto"> Assunto </label> <br>
-            <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-            <br> <br>
-
-            <!-- <button> Enviar </button> -->
-            <input type="submit" value="Enviar">
-
-            <!-- ‼️ não é uma boa pratica colocar os <br> pra organizar o front end ‼️ -->
-            <!-- mas como estamos vendo apenas html, utilizaremos ele para visualizar melhor sem o css -->
-        </form>
+        <div>
+            <form>
+                <label for="nome"> Nome </label> <br>
+                <input type="text" id="nome" name="nome">
+                <br> <br>
+    
+                <label for="email"> E-Mail </label> <br>
+                <input type="email" id="email" name="email">
+                <br> <br>
+    
+                <label for="assunto"> Assunto </label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br> <br>
+    
+                <!-- <button> Enviar </button> -->
+                <input type="submit" value="Enviar">
+    
+                <!-- ‼️ não é uma boa pratica colocar os <br> pra organizar o front end ‼️ -->
+                <!-- mas como estamos vendo apenas html, utilizaremos ele para visualizar melhor sem o css -->
+            </form>
+        </div>
 
         <hr />
     </div>

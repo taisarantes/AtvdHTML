@@ -14,32 +14,42 @@ body{
     font-size: 100px;
 }
 
-.borda {
+/* .borda {
     border: solid 50px;
     border-color:brown;
-}
+} */
 
 .mt-30 {
     margin-top: 50px;
 }
 
-.menu li{
+.p-30 {
+    padding: 30px;
+}
+
+/* 
+    Utilizando id menu é possível especificar que apenas no menu será aplicado
+    a organização de deixar os elementos da lista um do lado do outro
+
+    O padding é o espaçamento interno do elementos da lista
+ */
+#menu li{
     display: inline;
     padding: 16px;
 }
 
-.menu li a{
+#menu li a{
     text-decoration: none;
-    /* tira o hífen do texto */
+    /* tira o sublinhado do texto */
     color: black;
     font-size: 20px;
 }
 
 /* altera as ações baseado na movimentação do mouse */
 /* nesse caso, quando o mouse passar pelo paragrafo dentro de <a>, dentro de <li> */
-.menu li a:hover{
-    font-size: 30px;
-    color:crimson;
+#menu li a:hover{
+    font-size: 25px;
+    color:rebeccapurple;
 }
 
 .center {
@@ -70,7 +80,6 @@ body{
 #Cor-Fonte {
     color:red;
 }
-
 
 /* Essa parte se refere ao CSS do INDEX */ 
 
